@@ -160,7 +160,18 @@ h4{
   line-height: 1.1;
 }
 
+h3 a {
 
+  color: var(--red-violet);
+  text-decoration: none;
+}
+h3 a:link { text-decoration: none; }
+
+h3 a:visited { text-decoration: none; }
+
+h3 a:hover { text-decoration: none; }
+
+h3 a:active { text-decoration: none; }
 
 p {
 
