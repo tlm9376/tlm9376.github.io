@@ -185,6 +185,18 @@ p {
   margin-right: 5vw;
 }
 
+.title {
+  font-family: var(--font-family-fucxedcaps-regular);
+  font-size: 8vw;
+  color: var(--red-violet);
+  text-decoration: none;
+}
+
+title a:visited {
+  text-decoration: none;
+  color: var(--red-violet);
+}
+
 @media screen and (max-width: 600px) {
   div.column {
     font-size: 30px;
